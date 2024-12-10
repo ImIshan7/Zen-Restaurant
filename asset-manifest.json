@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Zen-Restaurant/static/css/main.4fe52d0e.css",
+    "main.js": "/Zen-Restaurant/static/js/main.55df62bd.js",
+    "static/js/453.f031d361.chunk.js": "/Zen-Restaurant/static/js/453.f031d361.chunk.js",
+    "index.html": "/Zen-Restaurant/index.html",
+    "main.4fe52d0e.css.map": "/Zen-Restaurant/static/css/main.4fe52d0e.css.map",
+    "main.55df62bd.js.map": "/Zen-Restaurant/static/js/main.55df62bd.js.map",
+    "453.f031d361.chunk.js.map": "/Zen-Restaurant/static/js/453.f031d361.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fe52d0e.css",
+    "static/js/main.55df62bd.js"
+  ]
+}
