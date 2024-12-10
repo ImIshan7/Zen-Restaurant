@@ -40,7 +40,7 @@ export const Navbar = () => {
                         {/* Desktop Navigation */}
                         <div className="hidden md:flex items-center space-x-8">
                             <div className="flex space-x-8">
-                                <NavLink to="/" isScrolled={isScrolled}>Home</NavLink>
+                                <NavLink to="/home" isScrolled={isScrolled}>Home</NavLink>
                                 <NavLink to="/menu" isScrolled={isScrolled}>Menu</NavLink>
                                 <NavLink to="/reservations" isScrolled={isScrolled}>Reservations</NavLink>
                                 <NavLink to="/gallery" isScrolled={isScrolled}>Gallery</NavLink>
@@ -84,7 +84,7 @@ export const Navbar = () => {
                             className="md:hidden bg-white border-t"
                         >
                             <div className="px-4 pt-2 pb-3 space-y-1">
-                                <MobileNavLink to="/" onClick={() => setIsOpen(false)}>Home</MobileNavLink>
+                                <MobileNavLink to="/home" onClick={() => setIsOpen(false)}>Home</MobileNavLink>
                                 <MobileNavLink to="/menu" onClick={() => setIsOpen(false)}>Menu</MobileNavLink>
                                 <MobileNavLink to="/reservations" onClick={() => setIsOpen(false)}>Reservations</MobileNavLink>
                                 <MobileNavLink to="/gallery" onClick={() => setIsOpen(false)}>Gallery</MobileNavLink>

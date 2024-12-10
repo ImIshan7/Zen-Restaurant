@@ -11,10 +11,11 @@ function App() {
   return (
       <Router>
         <div className="min-h-screen flex flex-col">
+
           <Navbar />
           <main className="flex-grow">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
               <Route path="/menu" element={<Menu />} />
               <Route path="/reservations" element={<Reservations />} />
               <Route path="/gallery" element={<Gallery />} />
